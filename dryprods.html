@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles3.css" />
+    <script
+      src="https://kit.fontawesome.com/43b3c3a723.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="newindex.html" id="btn11" class="buttons">HOME</a>
+
+      <a href="aboutus.html" id="btn11" class="buttons">ABOUT US</a>
+      <div class="buttons" id="btn3">GLASS SKIN DUO</div>
+      <div class="buttons" id="btn4">SKIN QUIZ</div>
+
+      <div class="logo">
+        <img src="logo1.jpg" alt="logo" id="logo" />
+      </div>
+      <div class="elements">
+        <!-- HTML -->
+        <a href="#" onclick="openLoginPopup(); return false;" >
+          <i class="fa-regular fa-user" id="ele1"></i>
+        </a>
+
+        <script>
+          function openLoginPopup() {
+            var loginUrl = "login.html";
+            var popupWidth = 400;
+            var popupHeight = 400;
+            var left = (screen.width - popupWidth) / 2;
+            var top = (screen.height - popupHeight) / 2;
+            var options =
+              "width=" +
+              popupWidth +
+              ",height=" +
+              popupHeight +
+              ",top=" +
+              top +
+              ",left=" +
+              left;
+            window.open(loginUrl, "Login", options);
+          }
+        </script>
+        <i class="fa-solid fa-magnifying-glass" id="ele2"></i>
+        <i class="fa-solid fa-bag-shopping" id="ele3"></i>
+      </div>
+    </div>
+
+    <div class="apheado">
+      <div id="aphead">Discover Our DrySkin Care Products</div>
+    </div>
+
+    <div class="prodcont">
+      <div class="prods">
+        <div class="prod1">
+          <img src="24.jpg" alt="Face Wash" class="prodimg" />
+          <p class="prodinfo">
+            Face Wash - Helps to cleanse and refresh your skin. <br />
+            Price: $10
+          </p>
+          <button class="btn" onclick="addToCart('Face Wash', 10)">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+      <script>
+        function addToCart(productName, price) {
+          // You can implement your logic to add the product to the cart here
+          alert(
+            "Product added to cart:\n" + productName + " - Price: $" + price
+          );
+        }
+      </script>
+      <div class="prods">
+        <div class="prod1">
+          <img src="27.jpg" alt="Face Wash" class="prodimg" />
+          <p class="prodinfo">
+            Hydrant - Nourishes for a radiant complexion. <br />
+            Price: $10
+          </p>
+          <button class="btn" onclick="addToCart('Face Wash', 10)">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <div class="prods">
+        <div class="prod1">
+          <img src="30.jpg" alt="Face Wash" class="prodimg" />
+          <p class="prodinfo">
+            Toner - Refreshes and balances for glowing skin.
+
+            <br />
+            Price: $10
+          </p>
+          <button class="btn" onclick="addToCart('Face Wash', 10)">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div class="prodcont">
+        <div class="prods">
+          <div class="prod1">
+            <img src="33.jpg" alt="Face Wash" class="prodimg" />
+            <p class="prodinfo">
+                Serum - Revitalizes for radiant skin. <br />
+              Price: $10
+            </p>
+            <button class="btn" onclick="addToCart('Face Wash', 10)">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+        <script>
+          function addToCart(productName, price) {
+            // You can implement your logic to add the product to the cart here
+            alert(
+              "Product added to cart:\n" + productName + " - Price: $" + price
+            );
+          }
+        </script>
+        <div class="prods">
+          <div class="prod1">
+            <img src="28.jpg" alt="Face Wash" class="prodimg" />
+            <p class="prodinfo">
+              Hydrant - Nourishes for a radiant complexion. <br />
+              Price: $10
+            </p>
+            <button class="btn" onclick="addToCart('Face Wash', 10)">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+  
+        <div class="prods">
+          <div class="prod1">
+            <img src="34.jpg" alt="Face Wash" class="prodimg" />
+            <p class="prodinfo">
+              Toner - Refreshes and balances for glowing skin.
+  
+              <br />
+              Price: $10
+            </p>
+            <button class="btn" onclick="addToCart('Face Wash', 10)">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+  
+        
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div class="sunprod">
+    <div class="suntext">
+      <div class="innertextsun">
+        <div class="sunhed">Your Skin's Natural Shield</div>
+        <div class="suntext2">
+          Experience natural protection with Rice & Probiotics Sunscreen.
+          Shield skin from UV rays while nurturing with rice and probiotics.
+          Embrace radiant defense for healthy, luminous skin.
+        </div>
+        <button class="btn" id="sunbtn" onclick="window.location.href='sunprodsmain.html'">Shop Now</button>
+      </div>
+    </div>
+
+    <div class="sunimg">
+      <img src="sun.jpg" alt="img" id="sunimg" />
+    </div>
+  </div>
+
+  <div class="finalline">
+    <div class="brand">
+      Botanique: Unveiling Nature's Wisdom,<br />
+      Embracing Modern Beauty
+    </div>
+  </div>
+
+  <div class="outterdivlast">
+    <div class="feature3">
+      <div class="keyfeatures">
+        <div class="feature1">
+          <i class="fa-solid fa-seedling" id="keyicon"></i>
+          <div class="kfhed">Natural Nourishment</div>
+          <div class="kftext">
+            Gentle yet effective formulas crafted to nurture and revitalize
+            the skin.
+          </div>
+        </div>
+      </div>
+      <div class="feature3">
+        <div class="keyfeatures">
+          <div class="feature1">
+            <i class="fa-solid fa-seedling" id="keyicon"></i>
+            <div class="kfhed">Ayurvedic Ingredients</div>
+            <div class="kftext">
+              Harnessing the power of time-tested herbs and botanicals from
+              Ayurvedic tradition.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="feature3">
+        <div class="keyfeatures">
+          <div class="feature1">
+            <i class="fa-solid fa-seedling" id="keyicon"></i>
+            <div class="kfhed">Cruelty-Free</div>
+            <div class="kftext">
+              Committed to ethical practices, ensuring no harm to animals in
+              any stage of production.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contactus">
+    connect with us @Botanique_official on Instagram
+  </div>
+  <div class="footer">
+    <div class="fttext">
+      <div class="fthead">BOTANIQUE</div>
+      <div class="menu">Menu</div>
+      <div class="menutext1">
+        contact<br /><br />
+        Terms and conditions<br /><br />
+        Ambassador Program<br /><br />
+        Shipping Return & Refund<br /><br />
+        Privacy Policy<br /><br />
+        FAQ
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

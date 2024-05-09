@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesmainshop.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/43b3c3a723.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="offer">10% off on your first purchase!!</div>
+    <div class="navbar">
+      <a href="newindex.html" id="btn11" class="buttons">HOME</a>
+
+      <div class="buttons" id="btn2">ABOUT US</div>
+      <div class="buttons" id="btn3">GLASS SKIN DUO</div>
+      <div class="buttons" id="btn4">SKIN QUIZ</div>
+
+      <div class="logo">
+        <img src="logo1.jpg" alt="logo" id="logo" />
+      </div>
+      <div class="elements">
+        <!-- HTML -->
+        <a href="#" onclick="openLoginPopup(); return false;" >
+          <i class="fa-regular fa-user" id="ele1"></i>
+        </a>
+
+        <script>
+          function openLoginPopup() {
+            var loginUrl = "login.html";
+            var popupWidth = 400;
+            var popupHeight = 400;
+            var left = (screen.width - popupWidth) / 2;
+            var top = (screen.height - popupHeight) / 2;
+            var options =
+              "width=" +
+              popupWidth +
+              ",height=" +
+              popupHeight +
+              ",top=" +
+              top +
+              ",left=" +
+              left;
+            window.open(loginUrl, "Login", options);
+          }
+        </script>
+        <i class="fa-solid fa-magnifying-glass" id="ele2"></i>
+        <i class="fa-solid fa-bag-shopping" id="ele3"></i>
+      </div>
+    </div>
+    <div class="textforabout">
+        Exciting things are on the horizon! Our "About Us" page is currently in the works as we prepare to unveil the story behind Botanique.
+
+
+    </div>
+    
+
+    <div class="moving-text">
+      <p>Website Under Construction</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,199 @@
+/* Index */
+body{
+    margin: 0;
+    padding: 0;
+}
+.offer{
+    background-color: #edd6db;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: "Exo", sans-serif;
+    color: #c13851;
+   
+
+}
+.offer:hover{
+    color: #edd6db;
+    background-color: #c13851;
+}
+.navbar{
+    background-color: #c13851;
+    color:#edd6db;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: "Exo", sans-serif;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.buttons{
+    margin-left: 20px;
+    position: sticky;
+    
+    
+}
+#btn11{
+    margin-left: 20px;
+    position: sticky;
+    color:#edd6db;
+    font-size: 15px;
+    font-family: "Exo", sans-serif;
+    text-decoration: none;
+}
+.buttons:hover{
+    text-decoration: underline;
+
+}
+
+
+.logo{
+    margin-top: -20px;
+}
+#logo{
+    width:110px;
+    height: 50px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+    margin-top: none;
+}
+
+
+.elements{
+    margin-left:550px ;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#ele1{
+    margin-right:20px;
+    font-size: 17px;
+    color: #edd6db;
+    transition: transform .2s;
+
+}
+#ele1:hover{
+    transform: scale(1.5);
+}
+
+#ele2{
+    margin-right:20px;
+    font-size: 17px;
+    color: #edd6db;
+    transition: transform .2s;
+}
+#ele2:hover{
+    transform: scale(1.5);
+}
+#ele3{
+    margin-right:20px;
+    font-size: 17px;
+    color: #edd6db;
+    transition: transform .2s;
+}
+#ele3:hover{
+    transform: scale(1.5);
+}
+.img{
+    display:flex;
+    -ms-flex-align: center;
+    justify-content: center;
+    align-items:center ;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    
+}
+#imgbanner{
+    width: 100%;
+    height:645px;
+    display:flex;
+    -ms-flex-align: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+.textbox{
+    z-index: 1;
+    position: relative;
+    font-family: "Exo", sans-serif;
+    text-decoration: none;
+    display: flex;
+    margin-top: 400px;
+    margin-left: 98px;
+}
+#innertext1{
+    font-family: "Hepta Slab", serif;
+    
+    font-size: 40px;
+    color:#000000;
+    ;
+}
+
+.btn{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color:#d98f9d;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: transform .2s;
+    color: #901b31;
+    
+}
+.btn:hover{
+    opacity: 1;
+    
+    
+}
+
+.textforabout {
+    font-family: "Hepta Slab", serif;
+    font-size: 30px;
+    color: black;
+    width: 1050px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 200px;
+    text-align: center;
+
+
+  }
+.moving-text {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #edd6db; /* Pink color */
+    overflow: hidden; /* Hide overflowing text */
+  }
+
+  /* Keyframe animation */
+  @keyframes moveText {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+  .moving-text p {
+    display: inline-block; /* Make the text move horizontally */
+    white-space: nowrap; /* Prevent line breaks */
+    animation: moveText 6s linear infinite; /* Animation */
+  }
+
+
+
+
+

@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styles2.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/43b3c3a723.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <form action="" method="post"> <!-- Changed form action to submit to the same page -->
+        <div class="login">Login</div>
+        <div class="inputplace">
+            <input class="inputt" type="text" name="username" placeholder="Username" required>
+            <input class="inputt" type="password" name="password" placeholder="Password" required>
+            <div class="btndiv">
+                <button class="btn" type="submit" name="submit">Login</button> <!-- Changed the button type to submit -->
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="loginbtns">
+            <div class="btn1">
+                <i class="fa-brands fa-google" id="btn1"></i>
+                <button class="lb1" type="button" onclick="loginWithGoogle()">Login with Google</button>
+            </div>
+            <div class="btn2">
+                <i class="fa-brands fa-apple" id="btn2"></i>
+                <button class="lb1" type="button" onclick="loginWithApple()">Login with Apple</button>
+            </div>
+        </div>
+        <div class="signup">Don't have an account?<a href="signup.html"> Sign up</a></div>
+        <div class="bottom"></div>
+    </form>
+</div>
+<script>
+    function loginWithGoogle() {
+        // You would implement Google authentication logic here
+        alert("Logging in with Google...");
+    }
+
+    function loginWithApple() {
+        // You would implement Apple authentication logic here
+        alert("Logging in with Apple...");
+    }
+</script>
+</body>
+</html>

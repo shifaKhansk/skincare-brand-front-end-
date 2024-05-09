@@ -1,0 +1,309 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.offer{
+    background-color: #edd6db;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: "Exo", sans-serif;
+    color: #c13851;
+   
+
+}
+.offer:hover{
+    color: #edd6db;
+    background-color: #c13851;
+}
+.navbar{
+    background-color: #c13851;
+    color:#edd6db;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: "Exo", sans-serif;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.buttons{
+    margin-left: 20px;
+    position: sticky;
+    
+    
+}
+#btn11{
+    margin-left: 20px;
+    position: sticky;
+    color:#edd6db;
+    font-size: 15px;
+    font-family: "Exo", sans-serif;
+    text-decoration: none;
+}
+.buttons:hover{
+    text-decoration: underline;
+
+}
+
+
+.logo{
+    margin-top: -20px;
+}
+#logo{
+    width:110px;
+    height: 50px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+    margin-top: none;
+}
+
+
+.elements{
+    margin-left:550px ;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#ele1{
+    margin-right:20px;
+    font-size: 17px;
+    color: #edd6db;
+    transition: transform .2s;
+
+}
+#ele1:hover{
+    transform: scale(1.5);
+}
+
+#ele2{
+    margin-right:20px;
+    font-size: 17px;
+    color: #edd6db;
+    transition: transform .2s;
+}
+#ele2:hover{
+    transform: scale(1.5);
+}
+#ele3{
+    margin-right:20px;
+    font-size: 17px;
+    color: #edd6db;
+    transition: transform .2s;
+}
+#ele3:hover{
+    transform: scale(1.5);
+}
+.apheado{
+    width: 100%;
+    display: flex;
+    -ms-flex-align: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#aphead{
+    font-size: 37px;
+    font-family: "Hepta Slab", serif;
+    margin-top: 20px;
+    display: flex;
+    color: black;
+    margin-top: 20px;
+}
+
+.prodcont{
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: center;
+}
+.prods{
+    width: 400px;
+    height: 450px;
+    border:1px solid black ;
+    border-radius: 20px;
+    margin-left: 28px;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    
+}
+
+.prodimg{
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 45px;
+    
+}
+
+.btn{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color:#d98f9d;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: transform .2s;
+    color: #901b31;
+    
+}
+.btn:hover{
+    opacity: 1;
+    
+    
+}
+p{
+    font-size: 20px;
+    font-family:"Exo", sans-serif;
+}
+
+.sunprod{
+    margin-top: 100px;
+    display: flex;
+}
+
+.suntext{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top:10px;
+    background-color: #f3f2f2;
+    width: 800px;
+    height: 500px;
+}
+.innertextsun{
+    
+}
+.sunhed{
+   
+    font-size: 30px;
+    font-family: "Hepta Slab", serif;
+}
+.suntext2{
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: "Exo", sans-serif;
+    width: 400px;
+}
+#sunbtn{
+    margin-top:30px;
+}
+.sunimg{
+    display: flex;
+    -ms-flex-align: center;
+    height: 500px;
+}
+#sunimg{
+    width: 700px;
+    height: 510px;
+
+}
+
+.finalline{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    -ms-flex-align: center;
+    justify-content: center;
+    text-align: center;
+}
+.brand{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 45px;
+    font-family: "Hepta Slab", serif;
+    color: #b54c63;
+}
+
+.keyfeatures{
+    width: 440px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #dcd3d4;
+    flex-direction: row;
+    color: #000000;
+    padding: 20px;
+}
+
+.feature1{
+    
+}
+
+.kfhed{
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: "Hepta Slab", serif;
+}
+.kftext{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: "Exo", sans-serif;
+}
+#keyicon{
+    font-size: 30px;
+    margin-top:20px ;
+}
+
+.outterdivlast{
+    display: flex;
+    flex-direction: row;
+}
+.feature3{
+    display: flex;
+
+}
+
+.contactus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Hepta Slab", serif;
+    margin-top: 30px;
+
+
+}
+.footer{
+    width:100%;
+    height: 500px;
+    display: flex;
+    flex-direction:row;
+    background-color: #dcd3d4;
+    margin-top: 40px;
+}
+.fttext{
+    padding-top: 50px;
+    padding-left:30px;
+}
+.fthead{
+    font-size: 20px;
+    font-family: "Hepta Slab", serif;
+}
+
+.menu{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.menutext1{
+    margin-top: 20px;
+    font-family:"Exo", sans-serif;
+    font-size: 17px;
+    font-stretch: expanded;
+    margin
+    
+}
